@@ -1,7 +1,7 @@
 from flask import url_for, session, Flask, render_template, request,redirect, jsonify
 import hashlib
 from pymongo import MongoClient
-client = MongoClient('mongodb+srv://test:sparta@cluster0.amsx0.mongodb.net/cluster0?retryWrites=true&w=majority')
+client = MongoClient('mongodb+srv://test:<PassWord>@cluster0.amsx0.mongodb.net/cluster0?retryWrites=true&w=majority')
 db = client.timeattack
 
 
